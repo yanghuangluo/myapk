@@ -25,7 +25,8 @@ orientation = portrait
 android.minapi = 21
 android.ndk = 23b
 android.api = 33
-android.sdk = 24
+# CI 自动化：自动接受 Android SDK 许可协议，避免卡在 Accept? (y/N)
+android.accept_sdk_license = True
 
 # 图标（可选，放到 icons 目录后取消注释）
 # icon.filename = %(source.dir)s/icons/icon.png
