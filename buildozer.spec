@@ -23,7 +23,7 @@ orientation = portrait
 
 # Android 构建参数
 android.minapi = 21
-android.ndk = 23b
+android.ndk = 28c
 android.api = 33
 # CI 自动化：自动接受 Android SDK 许可协议，避免卡在 Accept? (y/N)
 android.accept_sdk_license = True
