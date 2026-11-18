@@ -1,0 +1,20 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# Buildozer 构建产物与环境
+.buildozer/
+bin/
+*.apk
+*.aab
+
+# 本地虚拟环境
+.venv/
+venv/
+
+# 编辑器/系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
